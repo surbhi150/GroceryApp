@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph.xml"
+    app:startDestination="@id/itemsList">
+
+    <fragment
+        android:id="@+id/itemsList"
+        android:name="com.example.groceryapp.ItemsList"
+        android:label="fragment_items_list"
+        tools:layout="@layout/fragment_items_list" />
+    <fragment
+        android:id="@+id/addCategory"
+        android:name="com.example.groceryapp.AddCategory"
+        android:label="fragment_add_category"
+        tools:layout="@layout/fragment_add_category" />
+</navigation>
